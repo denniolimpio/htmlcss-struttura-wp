@@ -1,0 +1,101 @@
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  }
+/* fine reset */
+
+/* contenitore generale */
+.wrapper {
+  width: 70%;
+  margin: auto;
+}
+/* fine contenitore generale */
+
+
+/* inizio header */
+header {
+  width: 100%;
+  height: 100px;
+  background: yellow;
+  margin: 15px 0;
+  overflow: hidden;
+}
+/* fine header */
+
+/* inizio main rule*/
+main {
+  height: 80vh;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* fine main rule*/
+
+/* colonna sinistra */
+main div.col.left {
+  width: 23%;
+  height: 30%;
+  background: pink;
+  float: left;
+}
+/* fine colonna  sinistra */
+
+/* colonna centrale */
+main div.col.center {
+  width: 45%;
+  height: 95%;
+  background: purple;
+  float: left;
+  margin-left: 5%;
+}
+/* fine colonna centrale */
+
+/* colonna destra */
+div.col.right{
+  width: 22%;
+  height: 90%;
+  float: left;
+  margin-left: 5%;
+}
+/* fine colonna destra */
+
+/* contenuto colonna destra */
+
+main .col.right .top {
+  width: 100%;
+  height: 45%;
+  background: pink;
+  margin-bottom: 10%;
+  overflow: hidden;
+
+}
+
+main .col.right .bottom {
+  width: 100%;
+  height: 45%;
+  background: pink;
+  overflow: hidden;
+
+}
+/* fine contenuto colonna destra */
+
+
+/* inizio footer */
+footer {
+  width: 100%;
+  height: 50px;
+  background: cyan;
+  margin-bottom: 10px;
+}
+/* fine footer */
