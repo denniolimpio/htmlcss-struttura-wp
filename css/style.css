@@ -11,6 +11,7 @@
 /* contenitore generale */
 .wrapper {
   width: 70%;
+
   margin: auto;
 }
 /* fine contenitore generale */
@@ -28,10 +29,7 @@ header {
 
 /* inizio main rule*/
 main {
-  height: 80vh;
-  width: 100%;
-  margin-bottom: 20px;
-  overflow: hidden;
+  margin-bottom: 10px;
 
 }
 
@@ -44,8 +42,8 @@ main::after{
 
 /* colonna sinistra */
 main div.col.left {
-  width: 23%;
-  height: 30%;
+  width: 25%;
+  height: 300px;
   background: pink;
   float: left;
 }
@@ -53,20 +51,20 @@ main div.col.left {
 
 /* colonna centrale */
 main div.col.center {
-  width: 45%;
-  height: 95%;
+  width: 44%;
+  height: 600px;;
   background: purple;
   float: left;
-  margin-left: 5%;
+  margin: 0 3%;
 }
 /* fine colonna centrale */
 
 /* colonna destra */
 div.col.right{
-  width: 22%;
-  height: 90%;
+  width: 25%;
+  height: 600px;
   float: left;
-  margin-left: 5%;
+
 }
 /* fine colonna destra */
 
